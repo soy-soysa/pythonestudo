@@ -1,0 +1,10 @@
+Produto: Prod
+Tipo: Informática
+Descrição: E isso aqui
+Preço: R$ 76,92
+-----------------------------------------------------
+Produto: perif
+Tipo: Informática
+Descrição: Aquilo la
+Preço: R$ 35,69
+-----------------------------------------------------
