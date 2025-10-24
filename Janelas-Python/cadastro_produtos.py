@@ -34,7 +34,7 @@ class cadastro_produtos(QWidget):
         # Vamos criar 2 labels que representarão as partes superior, onde ficará a imagem, e a parte inferior, onde teremos os controles
         self.superior_label = QLabel()
 
-        self.superior_label.setPixmap(QPixmap(".venv/algumafoto.jpg")) 
+        self.superior_label.setPixmap(QPixmap("algumafoto.jpg")) 
         self.superior_label.setScaledContents(True)
         # Ajustar a altura da label
         self.superior_label.setFixedHeight(400)

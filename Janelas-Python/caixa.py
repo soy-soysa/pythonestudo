@@ -16,7 +16,7 @@ class Caixa(QWidget):
         self.setFixedSize(1200,800)
 # ---------------------------- CONFIGURANDO A IMAGEM ----------------------------
         self.imagem_label = QLabel()
-        self.imagem_label.setPixmap(QPixmap(".venv/padaria2.jpg"))
+        self.imagem_label.setPixmap(QPixmap("padaria2.jpg"))
         self.imagem_label.setScaledContents(True)
         self.imagem_label.setFixedSize(600,300)
 # ---------------------------- ADICIONANDO AS CAIXAS DE INSERÇÃO ----------------------------

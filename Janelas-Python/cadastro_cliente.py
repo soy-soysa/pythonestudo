@@ -12,7 +12,7 @@ class cadastro_cliente(QWidget):
 
         # ----------------------------------------------------------------------------------------------------------------------------
 
-        self.setWindowIcon(QIcon(".venv/iconuser.jpg"))
+        self.setWindowIcon(QIcon("iconuser.jpg"))
 
         # ----------------------------------------------------------------------------------------------------------------------------
 
@@ -21,7 +21,7 @@ class cadastro_cliente(QWidget):
 
 
         self.esquerda_label = QLabel()
-        self.esquerda_label.setPixmap(QPixmap(".venv/cadastrodouser.jpg"))
+        self.esquerda_label.setPixmap(QPixmap("cadastrodouser.jpg"))
         self.esquerda_label.setFixedWidth(600)
         self.esquerda_label.setScaledContents(True)
 
