@@ -1,8 +1,8 @@
 import sys
 
 from PyQt5.QtCore import Qt
-from PyQt5.QtGui import QPixmap, QIcon, QFont, QColor
-from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QLineEdit, QPushButton, QInputDialog, QMessageBox, QVBoxLayout, QHBoxLayout, QCheckBox
+from PyQt5.QtGui import QPixmap
+from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QLineEdit, QPushButton, QVBoxLayout, QHBoxLayout, QCheckBox
 
 # CRIANDO E NOMEANDO A JANELA -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 class logincadastro(QWidget):
